@@ -15,7 +15,7 @@ namespace CreatingTabbedApplications
 	{
 		// class-level declarations
 		UIWindow window;
-
+		TabBarController tabBarController;
 		//
 		// This method is invoked when the application has loaded and is ready to run. In this 
 		// method you should instantiate the window, load the UI into it and then make the window
@@ -30,7 +30,9 @@ namespace CreatingTabbedApplications
 			
 			// If you have defined a root view controller, set it here:
 			// window.RootViewController = myViewController;
-			
+			tabBarController = new TabBarController ();
+			window.RootViewController = tabBarController;	
+
 			// make the window visible
 			window.MakeKeyAndVisible ();
 			

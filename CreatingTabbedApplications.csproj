@@ -93,4 +93,8 @@
     <Compile Include="TabBarController.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <BundleResource Include="second.png" />
+    <BundleResource Include="second%402x.png" />
+  </ItemGroup>
 </Project>
